@@ -1,0 +1,20 @@
+# general
+.env
+config.toml
+
+# Django
+__pycache__/
+
+# db
+postgres_data/
+*.sqlite*
+
+# Selenium
+chromedriver*
+
+# production environment
+.env.staging
+.env.staging.proxy-companion
+
+#gitlab runner
+.gitlab-ci.yml
